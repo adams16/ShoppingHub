@@ -3,4 +3,21 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMain">#880E4F</color>
+
+    <!-- splash color -->
+    <color name="colorlogo">#EC8067</color>
+    <!-- slide 1 color -->
+    <color name="buy">#E85858</color>
+    <!-- slide 2 color -->
+    <color name="sell">#6DB8DE</color>
+    <!-- slide 3 color -->
+    <color name="admin">#34495E</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
 </resources>

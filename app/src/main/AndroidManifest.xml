@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".SigninActivity"
+            android:theme="@style/ToolbarTheme"
+            />
+        <activity android:name=".SignupActivity"
+            android:theme="@style/ToolbarTheme"
+            />
+        <activity android:name=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>
