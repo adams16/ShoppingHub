@@ -23,7 +23,8 @@
         <activity android:name=".SignupActivity"
             android:theme="@style/ToolbarTheme"
             />
-        <activity android:name=".MainActivity">
+        <activity android:name=".PhoneVerificationActivity"
+            android:theme="@style/ToolbarTheme">
 
         </activity>
     </application>

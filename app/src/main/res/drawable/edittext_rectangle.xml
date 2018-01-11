@@ -3,7 +3,7 @@
     <!--<solid android:color="@color/dot_inactive" />-->
 
     <stroke
-        android:width="2.0dp"
+        android:width="1.0dp"
         android:color="@color/dot_active" />
 
     <padding

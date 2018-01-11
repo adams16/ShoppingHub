@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "34242577628",
+    "firebase_url": "https://shopping-hub-95830.firebaseio.com",
+    "project_id": "shopping-hub-95830",
+    "storage_bucket": "shopping-hub-95830.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34242577628:android:c8b68c92c406e243",
+        "android_client_info": {
+          "package_name": "com.example.adams.shoppinghub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34242577628-pos24tet3518h19oje45ksph94954neb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adams.shoppinghub",
+            "certificate_hash": "6891d776dad258410301102a8d35160d177e9497"
+          }
+        },
+        {
+          "client_id": "34242577628-jmoc4ab2trh1sbmd45qo0dgd25c0n458.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmwRQpekx1k5R_5MaWBeiw3ZU9u8cPzXM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34242577628-jmoc4ab2trh1sbmd45qo0dgd25c0n458.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

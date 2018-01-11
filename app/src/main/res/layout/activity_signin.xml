@@ -22,27 +22,27 @@
             android:layout_height="125dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/shoppinghub" />
-        
+
 
         <EditText
-            android:id="@+id/editTextContact"
+            android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edittext_rectangle"
             android:drawablePadding="10dp"
-            android:drawableStart="@drawable/ic_contact_24dp"
+            android:drawableStart="@drawable/ic_email_24dp"
             android:gravity="start|center_vertical"
-            android:hint="Contact"
-            android:imeOptions="actionDone"
-            android:inputType="number"
-            android:maxLength="10"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLength="140"
             android:paddingEnd="10dp"
             android:paddingStart="10dp"
             android:textColor="@color/dot_active"
             android:textColorHint="@color/dot_active"
             android:textSize="14sp"
-            android:drawableLeft="@drawable/ic_contact_24dp" />
+            android:drawableLeft="@drawable/ic_email_24dp" />
 
         <EditText
             android:id="@+id/editTextPassword"
