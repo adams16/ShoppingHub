@@ -23,10 +23,7 @@
         <activity
             android:name=".SignupActivity"
             android:theme="@style/ToolbarTheme" />
-        <activity
-            android:name=".SendcodeActivity"
-            android:theme="@style/ToolbarTheme"></activity>
-        <activity android:name=".CodeVerificationActivity"></activity>
+        <activity android:name=".SendCodeActivity"></activity>
     </application>
 
 </manifest>
