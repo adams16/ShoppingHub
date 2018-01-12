@@ -17,16 +17,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".IntroActivity" />
-        <activity android:name=".SigninActivity"
-            android:theme="@style/ToolbarTheme"
-            />
-        <activity android:name=".SignupActivity"
-            android:theme="@style/ToolbarTheme"
-            />
-        <activity android:name=".PhoneVerificationActivity"
-            android:theme="@style/ToolbarTheme">
-
-        </activity>
+        <activity
+            android:name=".SigninActivity"
+            android:theme="@style/ToolbarTheme" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/ToolbarTheme" />
+        <activity
+            android:name=".SendcodeActivity"
+            android:theme="@style/ToolbarTheme"></activity>
+        <activity android:name=".CodeVerificationActivity"></activity>
     </application>
 
 </manifest>

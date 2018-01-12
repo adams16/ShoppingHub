@@ -40,7 +40,7 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
 
         if (firebaseAuth.getCurrentUser() != null) {
             finish();
-            Intent intent3 = new Intent(SigninActivity.this, PhoneVerificationActivity.class);
+            Intent intent3 = new Intent(SigninActivity.this, SendcodeActivity.class);
             startActivity(intent3);
         }
 
@@ -78,7 +78,7 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         progressDialog.dismiss();
                         if (task.isSuccessful()) {
-                            Intent intent2 = new Intent(SigninActivity.this, PhoneVerificationActivity.class);
+                            Intent intent2 = new Intent(SigninActivity.this, SendcodeActivity.class);
                             startActivity(intent2);
                             finish();
                         } else {

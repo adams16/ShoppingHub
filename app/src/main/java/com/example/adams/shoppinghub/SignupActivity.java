@@ -42,7 +42,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         if (firebaseAuth.getCurrentUser() != null)
         {
             finish();
-            Intent intent2 = new Intent(SignupActivity.this,PhoneVerificationActivity.class);
+            Intent intent2 = new Intent(SignupActivity.this,SendcodeActivity.class);
             startActivity(intent2);
         }
 
@@ -101,7 +101,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
                         if (task.isSuccessful())
                         {
                             Toast.makeText(SignupActivity.this, "Registration Complete",Toast.LENGTH_SHORT).show();
-                            Intent intent1 = new Intent(SignupActivity.this,PhoneVerificationActivity.class);
+                            Intent intent1 = new Intent(SignupActivity.this,SendcodeActivity.class);
                             startActivity(intent1);
 
                         }
